@@ -4,31 +4,33 @@
 /dist
 /tmp
 /out-tsc
-# Only exists if Bazel was run
-/bazel-out
+[b|B]in/
+[O|o]bj/
 
 # dependencies
 /node_modules
 
-# profiling files
-chrome-profiler-events*.json
+# JetBrains IDE
+.idea/
 
-# IDEs and editors
-/.idea
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
+# VisualStudio IDE
+.vs/
 
-# IDE - VSCode
+# VSCode IDE
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
 .history/*
+
+# IDEs and editors
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
 
 # misc
 /.sass-cache
@@ -43,3 +45,9 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# Log files
+*.log
+
+# User files
+*.user

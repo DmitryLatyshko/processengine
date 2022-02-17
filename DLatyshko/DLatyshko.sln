@@ -1,6 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLatyshko", "DLatyshko\DLatyshko.csproj", "{9BE49237-7918-4E50-960F-84CFA3AA4020}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLatyshko.Core.Process", "DLatyshko.Core.Process\DLatyshko.Core.Process.csproj", "{410D3C78-856C-4955-9B6A-7C2FC2B79CE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DLatyshko.Core.Process", "DLatyshko.Core.Process", "{38E00532-D4A8-471F-BBFF-A10E18968E11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLatyshko.Core.Process.Tests", "DLatyshko.Core.Process.Tests\DLatyshko.Core.Process.Tests.csproj", "{D9CC5BFC-6EDF-427B-9813-8E58694C7ED6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +12,17 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9BE49237-7918-4E50-960F-84CFA3AA4020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9BE49237-7918-4E50-960F-84CFA3AA4020}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9BE49237-7918-4E50-960F-84CFA3AA4020}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9BE49237-7918-4E50-960F-84CFA3AA4020}.Release|Any CPU.Build.0 = Release|Any CPU
+		{410D3C78-856C-4955-9B6A-7C2FC2B79CE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{410D3C78-856C-4955-9B6A-7C2FC2B79CE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{410D3C78-856C-4955-9B6A-7C2FC2B79CE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{410D3C78-856C-4955-9B6A-7C2FC2B79CE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9CC5BFC-6EDF-427B-9813-8E58694C7ED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9CC5BFC-6EDF-427B-9813-8E58694C7ED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9CC5BFC-6EDF-427B-9813-8E58694C7ED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9CC5BFC-6EDF-427B-9813-8E58694C7ED6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{410D3C78-856C-4955-9B6A-7C2FC2B79CE7} = {38E00532-D4A8-471F-BBFF-A10E18968E11}
+		{D9CC5BFC-6EDF-427B-9813-8E58694C7ED6} = {38E00532-D4A8-471F-BBFF-A10E18968E11}
 	EndGlobalSection
 EndGlobal
